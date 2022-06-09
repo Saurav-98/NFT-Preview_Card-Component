@@ -41,14 +41,17 @@ img {
 }
 
 .nft--img{
-    width: 100%;
-    aspect-ratio: 1/1;
+    width: 100%;   
     margin-bottom: 1em;
     border-radius: 0.5em;
+    position: relative;
 
 }
+
+
 .container {
     max-width: 380px;
+    width: 90%;
     background-color: var(--card-blue);
     color: aliceblue;
     height: 600px;
@@ -66,12 +69,16 @@ img {
 }
 .nft--text {
     color: var(--primary-soft-blue);
+    width: 300px;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
 }
 .nft-info {
     margin-block: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.9rem;
 }
 .nft-detail {
     color: var(--primary-cyan);
