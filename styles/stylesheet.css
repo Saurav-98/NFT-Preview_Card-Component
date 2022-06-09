@@ -1,0 +1,96 @@
+
+
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --primary-soft-blue : hsl(215, 51%, 70%);
+    --primary-cyan : hsl(178, 100%, 50%);
+    --Very-dark-blue : hsl(217, 54%, 11%);
+    --card-blue : hsl(216, 50%, 16%);
+    --line-blue:hsl(215, 32%, 27%);
+    --white : hsl(0, 0%, 100%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--Very-dark-blue);
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+    object-fit: cover;   
+}
+
+.nft--img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+
+}
+.container {
+    max-width: 380px;
+    background-color: var(--card-blue);
+    color: aliceblue;
+    height: 600px;
+    padding: 1.5rem;
+    border-radius: 1em;
+   
+
+}
+
+.nft--title {
+    color: var(--white);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.nft--text {
+    color: var(--primary-soft-blue);
+}
+.nft-info {
+    margin-block: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nft-detail {
+    color: var(--primary-cyan);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.nft-date {
+    color: var(--primary-soft-blue);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.nft-detail img , 
+.nft-date img {
+    margin-right: 6px;
+}
+hr {
+ 
+    border: none;
+    border-bottom: 2px solid var(--line-blue);
+}
